@@ -142,4 +142,7 @@ CiferTech - [@twitter](https://twitter.com/cifertech1) - CiferTech@gmali.com
 
 Project Link: [https://github.com/cifertech/XIAO-ROBOT](https://github.com/cifertech/XIAO-ROBOT)
 
+<!-- Acknowledgments -->
+## :gem: Acknowledgements 
 
+ - The main code for voice recognition and analysis is related to the [TensorFlow Lite](https://github.com/lakshanthad/tflite-micro-arduino-examples).
