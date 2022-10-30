@@ -52,23 +52,23 @@ In this project, we will control a simple robot by using voice commands using th
 ### :camera: Pictures
 
 <div align="center"> 
-  <img src="https://user-images.githubusercontent.com/62047147/195984607-278ada2a-f733-4e01-8042-c0e8ac711ee9.jpg" alt="screenshot" />
+  <img src="https://user-images.githubusercontent.com/62047147/198869252-0cd978b5-6936-49f4-a0eb-8802ec8c543f.jpg" alt="screenshot" />
 </div>
 
 
 <!-- Features -->
 ### :dart: Features
 
-- Scan 2.4Ghz band
-- Show all the Data in Graphs
+- 6 Different Voice Commands
+- Show all received commands on Oled Display
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
 
-We will use Arduino Nano as a processor. and we will add an OLED display to show scanned values in graphs. With the nRF24 module, we can scan and view the entire 2.4GHz network.
+We will use XIAO nRF52840 Sense as a processor. and we will add an OLED display to show received commands. Also with the Help of the DRV8833 Dual Motor Driver Module, we were able to control our DC Motors as Voice Commands were received.
 
-- Arduino Nano
-- nRF24
+- XIAO nRF52840 Sense
+- DRV8833 Dual Motor Driver
 - Oled 0.96 SSD1306
 
 <!-- Schematic -->
@@ -77,30 +77,31 @@ Make the connections according to the table and schematic below.
 
 * Arduino and nRF24.
 
-| Arduino| nRF24|  
+We Should Connect STBY pin to VCC pin.
+
+| XIAO nRF52840 | DRV8833 |  
 | ----   | -----|
-| 9  | CE   |
-| 13 | SCK  |
-| 12 | MISO |
-| 10 | CSN  |
-| 11 | MOSI |
-| 3V3 | Vcc |
+| 1   | AIN1|
+| 2   | AIN2|
+| 10  | BIN1|
+| 9   | BIN2|
+| 5V  | Vm  |
 | GND | GND |
 
 
 * Arduino and OLED display.
 
-| Arduino| Oled 0.96|
+| XIAO nRF52840 | Oled 0.96|
 | ----   | -----|
-| A5  | SCK |
-| A4 | SDA  |
-| Vin | VDD |
+| 5  | SCK |
+| 4  | SDA |
+| 5V | VDD |
 | GND | GND |
 
  
 * Complete Schematic
 
-<img src="https://user-images.githubusercontent.com/62047147/195948711-5e1dd386-0181-4160-b4cd-54e5fbc42589.jpg" alt="screenshot" width="800" height="auto" />
+<img src="https://user-images.githubusercontent.com/62047147/198869760-02b3f2b8-ce71-41f1-98a1-4fd1527de672.png" alt="screenshot" width="800" height="auto" />
 
 
 <!-- Installation -->
