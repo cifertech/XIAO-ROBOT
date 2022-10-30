@@ -118,8 +118,7 @@ Before uploading the code you need to install the required library in Arduino ID
 <!-- Usage -->
 ## :eyes: Usage
 
-After uploading the code, the network scanner starts working automatically and Show the Scanned Data in Graph.
-
+After completing all the steps, the robot moves by receiving voice messages and the received messages are displayed on the screen.
 
 <!-- Contributing -->
 ## :wave: Contributing
