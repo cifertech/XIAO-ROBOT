@@ -123,8 +123,8 @@ After completing all the steps, the robot moves by receiving voice messages and 
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/cifertech/2.4-GHz-band-Scanner/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=cifertech/2.4-GHz-band-Scanner" />
+<a href="https://github.com/cifertech/XIAO-ROBOT/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=cifertech/XIAO-ROBOT" />
 </a>
 
 
