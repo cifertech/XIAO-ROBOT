@@ -59,7 +59,7 @@ In this project, we will control a simple robot by using voice commands using th
 <!-- Features -->
 ### :dart: Features
 
-- 6 Different Voice Commands
+- 4 Different Voice Commands
 - Show all received commands on Oled Display
 
 <!-- Getting Started -->
@@ -140,6 +140,6 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 CiferTech - [@twitter](https://twitter.com/cifertech1) - CiferTech@gmali.com
 
-Project Link: [https://github.com/cifertech/2.4-GHz-band-Scanner](https://github.com/cifertech/2.4-GHz-band-Scanner)
+Project Link: [https://github.com/cifertech/XIAO-ROBOT](https://github.com/cifertech/XIAO-ROBOT)
 
 
