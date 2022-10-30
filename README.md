@@ -75,7 +75,7 @@ We will use XIAO nRF52840 Sense as a processor. and we will add an OLED display 
 ### :electric_plug: Schematic
 Make the connections according to the table and schematic below.
 
-* Arduino and nRF24.
+* XIAO nRF52840 and DRV8833.
 
 We Should Connect STBY pin to VCC pin.
 
@@ -89,7 +89,7 @@ We Should Connect STBY pin to VCC pin.
 | GND | GND |
 
 
-* Arduino and OLED display.
+* XIAO nRF52840 and OLED display.
 
 | XIAO nRF52840 | Oled 0.96|
 | ----   | -----|
